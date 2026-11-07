@@ -1,0 +1,7 @@
+node_modules
+demo
+tests
+*.mp4
+*.webm
+*.mp3
+.git
