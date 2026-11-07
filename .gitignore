@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Production output
+dist/
+.vercel/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs and OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Secrets and keys (Non-custodial invariant)
+*.key
+*.pem
+*.keystore
+id_rsa*
