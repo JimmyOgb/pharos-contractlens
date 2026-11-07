@@ -17,8 +17,17 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
+# Demo temporary video captures
+demo/raw_video/
+demo/*.webm
+demo/seg*.mp3
+demo/test*.mp3
+demo/concat.txt
+
 # Secrets and keys (Non-custodial invariant)
 *.key
 *.pem
 *.keystore
 id_rsa*
+
+.vercel
